@@ -9,6 +9,7 @@ private:
 	unsigned int assists;
 public:
 	SoccerPlayer();
+	//конструктор с параметрами
 	SoccerPlayer(std::string, std::string, unsigned int, unsigned int);
 	void setName(std::string);
 	void setSurname(std::string);
