@@ -1,0 +1,2 @@
+# remoteSoccerPlayer
+remote SoccerPlayer class
