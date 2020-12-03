@@ -24,9 +24,5 @@ unsigned int SoccerPlayer::getAssists() { return assists; }
 void SoccerPlayer::print() {
 	std::cout << surname << ' ' << name << " goals: " << goals << " assists: " << assists << std::endl;
 }
-void SoccerPlayer::addGoals(unsigned int fG) {
-	goals += fG;
-}
-void SoccerPlayer::addAssists(unsigned int fA) {
-	assists += fA;
-}
+void SoccerPlayer::addGoals(unsigned int fG) {goals += fG;}
+void SoccerPlayer::addAssists(unsigned int fA) {assists += fA;}
